@@ -1,0 +1,24 @@
+{
+  "name": "VCharts",
+  "version": "0.1.0",
+  "summary": "基于Charts 3.6.0封装 VCharts.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jarvis-Mr/VCharts",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jarvis-Mr": "jarvis.lzw@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Jarvis-Mr/VCharts.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "VCharts/VCharts/**/*",
+  "swift_version": "5.0"
+}

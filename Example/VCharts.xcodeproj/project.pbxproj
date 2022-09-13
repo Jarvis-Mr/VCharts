@@ -40,10 +40,10 @@
 		607FACE51AFB9204008FA782 /* VCharts_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VCharts_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6B78DA16AC8BB33BBE187B2E /* VCharts.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VCharts.podspec; path = ../VCharts.podspec; sourceTree = "<group>"; };
+		6B78DA16AC8BB33BBE187B2E /* VCharts.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VCharts.podspec; path = ../VCharts.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		733ECA4297A1C2F5E045D442 /* Pods-VCharts_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCharts_Tests.debug.xcconfig"; path = "Target Support Files/Pods-VCharts_Tests/Pods-VCharts_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		75A4AB689E061E8249C5DEE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8DD6144945E1256FC44D632A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		75A4AB689E061E8249C5DEE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8DD6144945E1256FC44D632A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A120957573BAEEFF402FB04A /* Pods-VCharts_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCharts_Example.release.xcconfig"; path = "Target Support Files/Pods-VCharts_Example/Pods-VCharts_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B360B83EFBA3CAEF914CFDDD /* Pods_VCharts_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VCharts_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65AFE154F4AE5431EB001AE /* Pods-VCharts_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCharts_Example.debug.xcconfig"; path = "Target Support Files/Pods-VCharts_Example/Pods-VCharts_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				733ECA4297A1C2F5E045D442 /* Pods-VCharts_Tests.debug.xcconfig */,
 				484A7EFAE8D5CD80EB1A4BA4 /* Pods-VCharts_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

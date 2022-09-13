@@ -1,0 +1,6 @@
+framework module Pods_VCharts_Example {
+  umbrella header "Pods-VCharts_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

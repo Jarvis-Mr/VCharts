@@ -1,0 +1,16 @@
+PODS:
+  - VCharts (0.1.0)
+
+DEPENDENCIES:
+  - VCharts (from `../`)
+
+EXTERNAL SOURCES:
+  VCharts:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VCharts: f91d9f8ed09f76f6132cf5c34b8f750f70ebae20
+
+PODFILE CHECKSUM: 743644ffcc748f7b7c0b3194785a5df6aae73907
+
+COCOAPODS: 1.11.2
