@@ -14,7 +14,6 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		C6160A9CD85189B7E8642FF7 /* Pods_VCharts_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1E7EEDEC84701B0988865C /* Pods_VCharts_Example.framework */; };
-		DE2479DBD28DFCDB16752179 /* Pods_VCharts_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B360B83EFBA3CAEF914CFDDD /* Pods_VCharts_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +28,6 @@
 
 /* Begin PBXFileReference section */
 		1B1E7EEDEC84701B0988865C /* Pods_VCharts_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VCharts_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		484A7EFAE8D5CD80EB1A4BA4 /* Pods-VCharts_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCharts_Tests.release.xcconfig"; path = "Target Support Files/Pods-VCharts_Tests/Pods-VCharts_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* VCharts_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCharts_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,11 +39,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6B78DA16AC8BB33BBE187B2E /* VCharts.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VCharts.podspec; path = ../VCharts.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		733ECA4297A1C2F5E045D442 /* Pods-VCharts_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCharts_Tests.debug.xcconfig"; path = "Target Support Files/Pods-VCharts_Tests/Pods-VCharts_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		75A4AB689E061E8249C5DEE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8DD6144945E1256FC44D632A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A120957573BAEEFF402FB04A /* Pods-VCharts_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCharts_Example.release.xcconfig"; path = "Target Support Files/Pods-VCharts_Example/Pods-VCharts_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B360B83EFBA3CAEF914CFDDD /* Pods_VCharts_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VCharts_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65AFE154F4AE5431EB001AE /* Pods-VCharts_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCharts_Example.debug.xcconfig"; path = "Target Support Files/Pods-VCharts_Example/Pods-VCharts_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE2479DBD28DFCDB16752179 /* Pods_VCharts_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				1B1E7EEDEC84701B0988865C /* Pods_VCharts_Example.framework */,
-				B360B83EFBA3CAEF914CFDDD /* Pods_VCharts_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,8 +147,6 @@
 			children = (
 				C65AFE154F4AE5431EB001AE /* Pods-VCharts_Example.debug.xcconfig */,
 				A120957573BAEEFF402FB04A /* Pods-VCharts_Example.release.xcconfig */,
-				733ECA4297A1C2F5E045D442 /* Pods-VCharts_Tests.debug.xcconfig */,
-				484A7EFAE8D5CD80EB1A4BA4 /* Pods-VCharts_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -185,7 +177,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "VCharts_Tests" */;
 			buildPhases = (
-				5BA9CE923AD8A5931A48D939 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -212,6 +203,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = HYE5WA8QEX;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -278,28 +270,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-VCharts_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5BA9CE923AD8A5931A48D939 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VCharts_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -419,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,8 +448,13 @@
 			baseConfigurationReference = C65AFE154F4AE5431EB001AE /* Pods-VCharts_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HYE5WA8QEX;
 				INFOPLIST_FILE = VCharts/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "图表";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.1.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -493,8 +468,13 @@
 			baseConfigurationReference = A120957573BAEEFF402FB04A /* Pods-VCharts_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HYE5WA8QEX;
 				INFOPLIST_FILE = VCharts/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "图表";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.1.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,7 +485,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 733ECA4297A1C2F5E045D442 /* Pods-VCharts_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -527,7 +506,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 484A7EFAE8D5CD80EB1A4BA4 /* Pods-VCharts_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

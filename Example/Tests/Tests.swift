@@ -1,5 +1,5 @@
 import XCTest
-import VCharts
+//import VCharts
 
 class Tests: XCTestCase {
     

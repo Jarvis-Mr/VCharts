@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VCharts'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '基于Charts 3.6.0封装 VCharts.'
 
 # This description is used to generate tags and improve search results.

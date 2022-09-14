@@ -1,6 +1,6 @@
 {
   "name": "VCharts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "基于Charts 3.6.0封装 VCharts.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Jarvis-Mr/VCharts",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Jarvis-Mr/VCharts.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "10.0"
